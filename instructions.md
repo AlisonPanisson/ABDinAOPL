@@ -1,5 +1,4 @@
-# ABDinAOPL -- An Interface for Argumentation-Based Dialogues in Agent-Oriented Programming Languages
-
+# An Interface for Argumentation-Based Dialogues in Agent-Oriented Programming Languages
 
 This interface was implemented using JaCaMo Framework. More information about JaCaMo is available [here](http://jacamo.sourceforge.net/).
 Also, you need to be familiar with [Jason](http://jason.sourceforge.net/wp/) agent-oriented programming language.
