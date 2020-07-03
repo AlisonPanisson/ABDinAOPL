@@ -1,0 +1,42 @@
+
+
+mas teste {
+	
+	
+	 agent ag1 : test.asl {
+	  	beliefs: defeasible_rule(~c,d)
+	  			 defeasible_rule(p,[a,b])
+	  			 defeasible_rule(~e,f)
+	  			 defeasible_rule(a,true)
+	  			 defeasible_rule(b,true)
+	  			 d
+	  			 f	  			 
+	  	goals: opendialogue([ag1,ag2],p)
+	  	ag-arch: infra.dist.DistAgentArch
+	  }
+	  
+	  agent ag2 : test.asl {
+	  	beliefs: defeasible_rule(~a,c)
+	  			 defeasible_rule(c,true)
+	  			 defeasible_rule(e,true)
+	  			 defeasible_rule(~p,e)
+	  			 
+	  			 d
+
+	  			 
+
+  		ag-arch: infra.dist.DistAgentArch
+	  }
+
+
+	//class path
+	class-path:  lib
+    
+    // agent source path
+    asl-path: src/agt
+              src/agt/inc
+
+    
+    
+}
+
