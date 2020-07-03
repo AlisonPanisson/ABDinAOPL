@@ -23,5 +23,5 @@ Also, you need to be familiar with [Jason](http://jason.sourceforge.net/wp/) age
 ```javascript
 ag-arch: infra.dist.DistAgentArch 
 ```
-- Also, use the upadated internal action  ```.send ``` available in ../src/env/performatives/send.java when communicating. 
+- Also, use the upadated internal action  ```.send ``` available in ```../src/env/performatives/send.java``` when using agent communication. 
 
