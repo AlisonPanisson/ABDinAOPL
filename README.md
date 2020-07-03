@@ -1,8 +1,8 @@
-# ABDinAOPL -- An Interface for Argumentation-Based Dialogues in Agent-Oriented Programming Languages
+# An Interface for Argumentation-Based Dialogues in Agent-Oriented Programming Languages
 
 
 
-This project aims to develop an argumentation-based dialogue mechanism within an agent-oriented programming language called [Jason](http://jason.sf.net/).
+This project aims to develop an interface for argumentation-based dialogue mechanism within an agent-oriented programming language called [Jason](http://jason.sf.net/).
 
 - Instructions are available [here](https://github.com/AlisonPanisson/ABDinAOPL/blob/master/instructions.md)
 
